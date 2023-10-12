@@ -20,7 +20,7 @@ const Home = ({ setSelectedPage }: Props) => {
         className="md:flex mx-auto w-5/6 items-center justify-center md:h-5/6 "
         onViewportEnter={() => setSelectedPage(SelectedPage.Home)}>
         {/* Main Header */}
-        <div className="z-10 mt-32 basis-3/5">
+        <motion.div className="z-10 mt-32 basis-3/5">
           {/* Headings */}
           <motion.div
             className="md: -mt-20"
@@ -64,7 +64,7 @@ const Home = ({ setSelectedPage }: Props) => {
               learn more
             </AnchorLink>
           </motion.div>
-        </div>
+        </motion.div>
         {/* Image */}
 
         <div className="flex justify-center basis-3/5 md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
