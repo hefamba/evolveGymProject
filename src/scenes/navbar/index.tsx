@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
 import Logo from '@/assets/Logo.png';
 import Link from './Link';
@@ -19,8 +19,9 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfPage }: Props) => {
   const navbarBackground = isTopOfPage ? '' : 'bg-primary-100 drop-shadow';
 
   return (
-    <nav className={navbarBackground}>
-      <div className={`${flexBetween} fixed top-0 z-30 w-full py-6`}>
+    <nav>
+      <div
+        className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-6`}>
         <div className={`${flexBetween} mx-auto w-5/6 `}>
           <div className={`${flexBetween} w-full gap-16`}>
             <img alt="logo" src={Logo} />
