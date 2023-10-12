@@ -19,9 +19,6 @@ A responsive React web application built using Vite, Tailwind CSS, and other pac
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 
-## Demo
-
-You can check out the live demo of this website here:[DEMO](https://evolvewomensgym.netlify.app/)
 
 ## Installation
 
